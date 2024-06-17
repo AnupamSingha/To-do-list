@@ -1,0 +1,63 @@
+body {
+    background-image: url("pngtree-completed-to-do-list-icon-a-3d-rendering-of-a-notebook-image_13576111.png");
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: #1f1f1e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+
+main {
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 600px;
+}
+.task .due-time {
+    font-weight: bold;
+}
+
+.task-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.task-entry input,
+.task-entry select,
+.task-entry button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-list .completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-list button {
+    margin-left: 0.5rem;
+}
